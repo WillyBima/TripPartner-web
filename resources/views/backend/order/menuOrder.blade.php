@@ -50,7 +50,6 @@
                     <th>Status</th>
                     <th></th>
                     <th></th>
-                    <th></th>
                   </tr>
                 </thead>
                 <tbody>
@@ -74,12 +73,6 @@
                     <td>
                       <a href="{{url('/MenuOrder/viewOrder/'.$o->id)}}" class="btn btn-success" role="button" style="width: 100%;"><span class="fa fa-eye color-white"><span></a>
                     </td>
-                    <td><form action="{{url('/MenuOrder/'.$o->id)}}" method="post">
-                      <button class="btn btn-danger" type="submit" style="width:100%"><span class="fa fa-trash color-white"></span></button>
-                      {{ csrf_field() }}
-                      <input type="hidden" name="_method" value="DELETE">
-                    </form></td>
-
                   </tr>
                   @endforeach
                 </tbody>

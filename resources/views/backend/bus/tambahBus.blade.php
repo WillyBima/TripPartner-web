@@ -89,7 +89,6 @@
                   <div class="form-check">
                     <label class="form-check-label">
                       <input type="checkbox" name="fasilitas[]" class="form-check-input" value="{{$fasilitas->id_fasilitas}}"><i class="{{$fasilitas->icon}}"></i> {{$fasilitas->nama_fasilitas}}
-                      <img src="{{url('assets/fasilitas/'.$fasilitas->icon)}}" alt="">
                     </label>
                   </div>
                   @endforeach

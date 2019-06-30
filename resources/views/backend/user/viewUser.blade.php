@@ -62,8 +62,11 @@
                   <label>Email</label>
                   <p class="">{{$u->email}}</p>
                 </div>
+                <div class="form-group">
+                  <label>User Level</label>
+                  <p class="">{{$u->user_level}}</p>
+                </div>
               </div>
-
               <div class="box-footer">
                 <a href="/MenuUser" class="btn btn-sm" role="button" style="background-color: #f96d01; color: #ffffff;">Menu User</a>
               </div>

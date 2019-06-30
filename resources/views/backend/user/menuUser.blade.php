@@ -46,7 +46,7 @@
                     <th>Id User</th>
                     <th>Nama Lengkap</th>
                     <th>E-mail</th>
-                    <th></th>
+                    <th>User Level</th>
                     <th></th>
                   </tr>
                 </thead>
@@ -56,15 +56,9 @@
                     <td>{{$u->id}}</td>
                     <td>{{$u->nama_lengkap}}</td>
                     <td>{{$u->email}}</td>
+                    <td>{{$u->user_level}}</td>
                     <td>
                       <a href="{{url('/MenuUser/viewUser/'.$u->id)}}" class="btn btn-success" style="width: 100%;"><span class="fa fa-eye color-white"><span></a>
-                    </td>
-                    <td>
-                      <form action="{{url('/MenuUser/'.$u->id)}}" method="post">
-                        <button class="btn btn-danger" type="submit" style="width:100%"><span class="fa fa-trash color-white"></span></button>
-                        {{ csrf_field() }}
-                        <input type="hidden" name="_method" value="DELETE">
-                      </form>
                     </td>
                   </tr>
                   @endforeach

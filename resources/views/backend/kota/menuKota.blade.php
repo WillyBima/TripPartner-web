@@ -47,7 +47,6 @@
                     <th>Id</th>
                     <th>Nama Kota</th>
                     <th></th>
-                    <th></th>
                   </tr>
                 </thead>
                 <tbody>
@@ -56,13 +55,6 @@
                     <td>{{$k->id}}</td>
                     <td>{{$k->nama_kota}}</td>
                     <td><a href="{{url('/MenuKota/editKota/'.$k->id)}}" class="btn btn-primary" style="width: 50%;"><span class="fa fa-edit color-white"><span></a></td>
-                    <td>
-                      <form action="{{url('/MenuKota/'.$k->id)}}" method="post">
-                        <button class="btn btn-danger" type="submit" style="width:50%"><span class="fa fa-trash color-white"></span></button>
-                        {{ csrf_field() }}
-                        <input type="hidden" name="_method" value="DELETE">
-                      </form>
-                    </td>
                   </tr>
                   @endforeach
                 </tbody>

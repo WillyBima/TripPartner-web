@@ -51,7 +51,6 @@
                     <th>File Gambar</th>
                     <th></th>
                     <th></th>
-                    <th></th>
                   </tr>
                 </thead>
                 <tbody>
@@ -68,13 +67,6 @@
                     </td>
                     <td>
                       <a href="{{url('/MenuBus/editData/'.$b->id)}}" class="btn btn-primary" style="width: 100%;"><span class="fa fa-edit color-white"><span></a>
-                    </td>
-                    <td>
-                    <form action="{{url('/MenuBus/'.$b->id)}}" method="post">
-                      <button class="btn btn-danger" type="submit" style="width:100%"><span class="fa fa-trash color-white"></span></button>
-                      {{ csrf_field() }}
-                      <input type="hidden" name="_method" value="DELETE">
-                    </form>
                     </td>
                   </tr>
                   @php($no++)

@@ -49,7 +49,6 @@
                     <th>File Gambar</th>
                     <th></th>
                     <th></th>
-                    <th></th>
                   </tr>
                 </thead>
                 <tbody>
@@ -63,12 +62,6 @@
                     </td>
                     <td>
                       <a href="{{url('/MenuPo/editDataPO/'.$p->id)}}" class="btn btn-primary" role="button" style="width: 100%;"><span class="fa fa-edit color-white"><span></a>
-                    <td>
-                    <form action="{{url('/MenuPO/'.$p->id)}}" method="post">
-                      <button class="btn btn-danger" type="submit" style="width:100%"><span class="fa fa-trash color-white"></span></button>
-                      {{ csrf_field() }}
-                      <input type="hidden" name="_method" value="DELETE">
-                    </form>
                     </td>
                   </tr>
                   @endforeach

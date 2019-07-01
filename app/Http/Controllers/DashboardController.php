@@ -82,6 +82,13 @@ class DashboardController extends Controller
     //MENU HARGA
     public function menuharga()
     {
+      // $harga = DB::table('harga')
+      //             ->join('bus', 'bus.id_bus', '=', 'harga.nama_bus')
+      //             ->join('rute', 'rute.id', '=', 'harga.rute_bus')
+      //             ->select('bus.nama_bus', 'harga.rute_bus')
+      //             ->get();
+      //             dd($harga);
+      // return view('backend.harga.menuHarga',['harga'=>$harga]);
       $harga = DB::table('harga')->select('*')->get();
       return view('backend.harga.menuHarga',['harga'=>$harga]);
     }
@@ -256,7 +263,7 @@ class DashboardController extends Controller
 
       $_gambar = $request->file('gambar_bus');
       if(is_null($_gambar)){
-        $nama_gambar = DB::table('bus')->select('gambar_bus')->where('bus.id',$id)->first()->gambar_bus;
+        $nama_gambar = DB::table('bus')->select('gambar_bus')->where('bus.id_bus',$id)->first()->gambar_bus;
       }else{
         $_gambar = $request->file('gambar_bus');
         $nama_gambar = $_gambar->getClientOriginalName();

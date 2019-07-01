@@ -51,9 +51,10 @@
                   </tr>
                 </thead>
                 <tbody>
+                  @php($no = 1)
                   @foreach($user as $u)
                   <tr>
-                    <td>{{$u->id}}</td>
+                    <td>{{$no}}</td>
                     <td>{{$u->nama_lengkap}}</td>
                     <td>{{$u->email}}</td>
                     <td>{{$u->user_level}}</td>
@@ -61,6 +62,7 @@
                       <a href="{{url('/MenuUser/viewUser/'.$u->id)}}" class="btn btn-success" style="width: 100%;"><span class="fa fa-eye color-white"><span></a>
                     </td>
                   </tr>
+                  @php($no++)
                   @endforeach
                 </tbody>
               </table>

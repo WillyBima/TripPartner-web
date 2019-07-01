@@ -47,7 +47,7 @@
           <!-- general form elements -->
           <div class="box box-primary">
             <div class="box-header with-border text-center">
-              <h3 class="box-title">Detail Bus</h3>
+              <h3 class="box-title">Detail Data Bus</h3>
             </div>
             @foreach($bus as $b)
             <form role="form" action="" method="post" enctype="multipart/form-data">
@@ -71,12 +71,12 @@
                   <p class="">{{$b->keterangan}}</p>
                 </div>
                 <div class="form-group">
-                  <label for="exampleInputFile">File Gambar Bus</label>
-                  <img class="" src="{{url('img/bus/'.$b->gambar_bus)}}" alt="Card image" style="width: 100%;">
+                  <label for="exampleInputFile">File Gambar Bus</label><br>
+                  <img class="" src="{{url('img/bus/'.$b->gambar_bus)}}" alt="" style="width: 350px; height: 350px;">
                 </div>
               </div>
               <div class="box-footer">
-                <a href="/MenuBus" class="btn btn-sm" role="button" style="background-color: #f96d01; color: #ffffff;">Menu Bus</a>
+                <a href="{{url('/MenuBus')}}" class="btn btn-sm" role="button" style="background-color: #f96d01; color: #ffffff;">Kembali ke Menu Bus</a>
               </div>
 
             </form>

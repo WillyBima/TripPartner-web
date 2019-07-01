@@ -65,7 +65,12 @@
                 </div>
                 <div class="form-group">
                   <label>Jenis Bus</label>
-                  <input type="text" class="form-control" value="{{$b->jenis_bus}}" name="jenis_bus" placeholder="Enter ...">
+                  <select class="form-control" name="jenis_bus">
+                  <option value="{{$b->id_po}}">{{$b->jenis_bus}} (Dipilih)</option>
+                  <option value="Small Bus">Small Bus</option>
+                  <option value="Medium Bus">Medium Bus</option>
+                  <option value="Big Bus">Big Bus</option>
+                  </select>
                 </div>
                 <div class="form-group">
                   <label>Nama Bus</label>

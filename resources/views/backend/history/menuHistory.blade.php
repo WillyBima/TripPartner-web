@@ -49,12 +49,14 @@
                   </tr>
                 </thead>
                 <tbody>
+                  @php($no = 1)
                   @foreach($historyorder as $h)
                   <tr>
-                    <td>{{$h->id}}</td>
+                    <td>{{$no}}</td>
                     <td>{{$h->nama_kota}}</td>
                     <td>{{$h->nama_pemesan}}</td>
                   </tr>
+                  @php($no++)
                   @endforeach
                 </tbody>
               </table>

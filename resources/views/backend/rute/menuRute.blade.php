@@ -51,13 +51,15 @@
                   </tr>
                 </thead>
                 <tbody>
+                  @php($no = 1)
                   @foreach($rute as $r)
                   <tr>
-                    <td>{{$r->id}}</td>
+                    <td>{{$no}}</td>
                     <td>{{$r->kota_asal}}</td>
                     <td>{{$r->kota_tujuan}}</td>
                     <td><a href="{{url('/MenuRute/editRute/'.$r->id)}}" class="btn btn-primary" style="width: 50%;"><span class="fa fa-edit color-white"><span></a></td>
                   </tr>
+                  @php($no++)
                   @endforeach
                 </tbody>
               </table>

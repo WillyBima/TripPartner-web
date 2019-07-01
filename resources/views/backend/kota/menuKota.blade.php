@@ -50,12 +50,14 @@
                   </tr>
                 </thead>
                 <tbody>
+                  @php($no = 1)
                   @foreach($kota as $k)
                   <tr>
-                    <td>{{$k->id}}</td>
+                    <td>{{$no}}</td>
                     <td>{{$k->nama_kota}}</td>
                     <td><a href="{{url('/MenuKota/editKota/'.$k->id)}}" class="btn btn-primary" style="width: 50%;"><span class="fa fa-edit color-white"><span></a></td>
                   </tr>
+                  @php($no++)
                   @endforeach
                 </tbody>
               </table>

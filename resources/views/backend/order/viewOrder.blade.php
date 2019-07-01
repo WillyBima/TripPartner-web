@@ -90,10 +90,19 @@
                   <label>Tanggal Pulang</label>
                   <p class="">{{$o->tanggal_pulang}}</p>
                 </div>
+                <div class="form-group">
+                  <label>Status</label><br>
+                  @if($o->status === 'Belum Diproses')
+                  <span class="badge btn-warning">{{$o->status}}</span></td>
+                  @elseif($o->status === 'Sedang Diproses')
+                  <span class="badge btn-primary">{{$o->status}}</span></td>
+                  @elseif($o->status === 'Selesai')
+                  <span class="badge btn-success">{{$o->status}}</span></td>
+                  @endif
+                </div>
               </div>
               <div class="box-footer">
-                <a href="/MenuOrder" class="btn btn-sm" role="button" style="background-color: #f96d01; color: #ffffff;">Menu Order</a>
-                <a href="#" class="btn btn-sm" role="button" style="background-color: #f96d01; color: #ffffff;">Kirim E-Ticket</a>
+                <a href="{{url('/MenuOrder')}}" class="btn btn-sm" role="button" style="background-color: #f96d01; color: #ffffff;">Kembali ke Menu Order</a>
               </div>
 
             </form>

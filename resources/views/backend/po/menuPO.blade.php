@@ -52,9 +52,10 @@
                   </tr>
                 </thead>
                 <tbody>
+                  @php($no = 1)
                   @foreach($po as $p)
                   <tr>
-                    <td>{{$p->id}}</td>
+                    <td>{{$no}}</td>
                     <td>{{$p->nama_po}}</td>
                     <td>{{$p->gambar_po}}</td>
                     <td>
@@ -64,6 +65,7 @@
                       <a href="{{url('/MenuPo/editDataPO/'.$p->id)}}" class="btn btn-primary" role="button" style="width: 100%;"><span class="fa fa-edit color-white"><span></a>
                     </td>
                   </tr>
+                  @php($no++)
                   @endforeach
                 </tbody>
               </table>

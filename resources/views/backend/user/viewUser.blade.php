@@ -47,7 +47,7 @@
           <!-- general form elements -->
           <div class="box box-primary">
             <div class="box-header with-border text-center">
-              <h3 class="box-title">Detail User</h3>
+              <h3 class="box-title">Detail Data User</h3>
             </div>
             @foreach($user as $u)
             <form role="form" action="" method="post" enctype="multipart/form-data">
@@ -68,7 +68,7 @@
                 </div>
               </div>
               <div class="box-footer">
-                <a href="/MenuUser" class="btn btn-sm" role="button" style="background-color: #f96d01; color: #ffffff;">Menu User</a>
+                <a href="{{url('/MenuUser')}}" class="btn btn-sm" role="button" style="background-color: #f96d01; color: #ffffff;">Kembali ke Menu User</a>
               </div>
 
             </form>

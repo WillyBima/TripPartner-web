@@ -59,12 +59,12 @@
                   <p class="">{{$p->nama_po}}</p>
                 </div>
                 <div class="form-group">
-                  <label for="exampleInputFile">File Gambar PO Bus</label>
-                  <img class="" src="{{url('img/po/'.$p->gambar_po)}}" alt="Card image" style="width: 100%;">
+                  <label for="exampleInputFile">File Gambar PO Bus</label><br>
+                  <img class="img-fluid" src="{{url('img/po/'.$p->gambar_po)}}" alt="" style="width: 300px; height: 300px;">
                 </div>
               </div>
               <div class="box-footer">
-                <a href="/MenuPO" class="btn btn-sm" role="button" style="background-color: #f96d01; color: #ffffff;">Menu PO Bus</a>
+                <a href="{{url('/MenuPO')}}" class="btn btn-sm" role="button" style="background-color: #f96d01; color: #ffffff;">Kembali ke Menu PO Bus</a>
               </div>
 
             </form>

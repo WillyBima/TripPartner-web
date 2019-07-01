@@ -53,7 +53,7 @@
                   @foreach($historyorder as $h)
                   <tr>
                     <td>{{$no}}</td>
-                    <td>{{$h->nama_kota}}</td>
+                    <td>{{$h->id_order}}</td>
                     <td>{{$h->nama_pemesan}}</td>
                   </tr>
                   @php($no++)

@@ -134,12 +134,9 @@
               <input type="text" name="no_hp" class="form-control mb-2 mr-sm-2" placeholder="Nomor Handphone anda">
               <input type="text" value="{{$data->nama_bus}}"name="nama_bus" class="form-control mb-2 mr-sm-2" placeholder="Nama Bus">
               <input type="text" value="900000" name="harga" class="form-control mb-2 mr-sm-2" placeholder="Harga Bus">
-              <div class="form-group">
-                <textarea class="form-control" name="alamat_jemput" rows="5" placeholder="Alamat Penjemputan"></textarea>
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" name="alamat_tujuan" rows="5" placeholder="Tujuan Perjalanan"></textarea>
-              </div>
+              <input type="text" name="alamat_jemput" class="form-control mb-2 mr-sm-2" placeholder="Kota Asal">
+              <input type="text" name="alamat_tujuan" class="form-control mb-2 mr-sm-2" placeholder="Kota Tujuan">
+
               <div class="form-group">
                  <label for="" style="">Tanggal Berangkat</label>
                  <input class="form-control" name="tanggal_pergi" type="date" value="">

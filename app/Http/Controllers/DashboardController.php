@@ -82,14 +82,11 @@ class DashboardController extends Controller
     //MENU HARGA
     public function menuharga()
     {
-      // $harga = DB::table('harga')
-      //             ->join('bus', 'bus.id_bus', '=', 'harga.nama_bus')
-      //             ->join('rute', 'rute.id', '=', 'harga.rute_bus')
-      //             ->select('bus.nama_bus', 'harga.rute_bus')
-      //             ->get();
-      //             dd($harga);
-      // return view('backend.harga.menuHarga',['harga'=>$harga]);
-      $harga = DB::table('harga')->select('*')->get();
+      $harga = DB::table('harga')
+               ->join('bus', 'bus.id_bus', '=', 'harga.nama_bus')
+               ->join('rute', 'rute.id', '=', 'harga.rute_bus')
+               ->select('*')
+               ->get();
       return view('backend.harga.menuHarga',['harga'=>$harga]);
     }
 
@@ -107,12 +104,19 @@ class DashboardController extends Controller
 
     public function createharga()
     {
-      return view('backend.harga.tambahHarga');
+      $bus = DB::table('bus')->select('*')->get();
+      $rute = DB::table('rute')->select('*')->get();
+      return view('backend.harga.tambahHarga',['bus'=>$bus, 'rute'=>$rute]);
     }
 
     public function editharga($id)
     {
-      $harga = DB::table('harga')->select('*')->where('harga.id',$id)->get();
+      $harga = DB::table('harga')
+               ->join('bus', 'bus.id_bus', '=', 'harga.nama_bus')
+               ->join('rute', 'rute.id', '=', 'harga.rute_bus')
+               ->where('harga.id',$id)
+               ->select('*')
+               ->get();
       return view('backend.harga.editHarga', ['harga'=>$harga]);
     }
 

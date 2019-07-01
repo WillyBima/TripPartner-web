@@ -50,7 +50,7 @@
               <h3 class="box-title">Form Edit Data Harga</h3>
             </div>
             @foreach($harga as $h)
-            <form role="form" action="{{url('/MenuHarga/updateHarga/'.$k->id)}}" method="post" enctype="multipart/form-data">
+            <form role="form" action="{{url('/MenuHarga/updateHarga/'.$h->id)}}" method="post" enctype="multipart/form-data">
               {{ csrf_field() }}
 
               <div class="box-body">
@@ -61,7 +61,7 @@
 
                 <div class="form-group">
                   <label>Rute Bus</label>
-                  <input type="text" class="form-control" value="{{$h->rute_bus}}" name="rute_bus" placeholder="">
+                  <input type="text" class="form-control" value="{{$h->kota_asal}} - {{$h->kota_tujuan}}" name="rute_bus" placeholder="">
                 </div>
 
                 <div class="form-group">

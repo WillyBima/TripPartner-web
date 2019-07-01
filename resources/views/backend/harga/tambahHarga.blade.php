@@ -54,11 +54,19 @@
               <div class="box-body">
                 <div class="form-group">
                   <label>Nama Bus</label>
-                  <input type="text" class="form-control" name="nama_bus" placeholder="Enter ...">
+                  <select class="form-control" name="nama_bus">
+                    @foreach($bus as $bus)
+                    <option value="{{$bus->id_bus}}">{{$bus->nama_bus}}</option>
+                    @endforeach
+                  </select>
                 </div>
                 <div class="form-group">
                   <label>Rute Bus</label>
-                  <input type="text" class="form-control" name="rute_bus" placeholder="Enter ...">
+                  <select class="form-control" name="rute_bus">
+                    @foreach($rute as $rute)
+                    <option value="{{$rute->id}}">{{$rute->kota_asal}} - {{$rute->kota_tujuan}}</option>
+                    @endforeach
+                  </select>
                 </div>
                 <div class="form-group">
                   <label>Harga</label>

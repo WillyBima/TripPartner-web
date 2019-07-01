@@ -49,25 +49,19 @@
                     <th>Rute Bus</th>
                     <th>Harga Bus</th>
                     <th></th>
-                    <th></th>
                   </tr>
                 </thead>
                 <tbody>
+                  @php($no = 1)
                   @foreach($harga as $h)
                   <tr>
-                    <td>{{$h->id}}</td>
+                    <td>{{$no}}</td>
                     <td>{{$h->nama_bus}}</td>
-                    <td>{{$h->rute_bus}}</td>
+                    <td>{{$h->kota_asal}} - {{$h->kota_tujuan}}</td>
                     <td>{{$h->harga}}</td>
-                    <td><a href="{{url('/MenuHarga/editHarga/'.$k->id)}}" class="btn btn-primary" style="width: 50%;"><span class="fa fa-edit color-white"><span></a></td>
-                    <td>
-                      <form action="{{url('/MenuHarga/'.$k->id)}}" method="post">
-                        <button class="btn btn-danger" type="submit" style="width:50%"><span class="fa fa-trash color-white"></span></button>
-                        {{ csrf_field() }}
-                        <input type="hidden" name="_method" value="DELETE">
-                      </form>
-                    </td>
+                    <td><a href="{{url('/MenuHarga/editHarga/'.$h->id)}}" class="btn btn-primary" style="width: 70%;"><span class="fa fa-edit color-white"><span></a></td>
                   </tr>
+                  @php($no++)
                   @endforeach
                 </tbody>
               </table>

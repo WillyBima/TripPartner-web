@@ -187,7 +187,6 @@ class DashboardController extends Controller
       return redirect('/MenuRute');
     }
 
-
     // MENU BUS
     public function menubus()
     {

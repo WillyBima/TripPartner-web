@@ -56,19 +56,19 @@
               <div class="carousel-inner">
                 @foreach($databus as $db)
                 <div class="carousel-item active text-center">
-                  <img src="{{url('img/bus/'.$db->gambar_bus)}}" alt="Los Angeles" width="auto" height="auto">
+                  <img src="{{url('img/bus/'.$db->gambar_bus)}}" alt="Los Angeles" style="width: 580px;" height="auto">
                 </div>
                 <div class="carousel-item text-center">
-                  <img src="{{url('img/bus/'.$db->gambar_bus)}}" alt="Chicago" width="auto" height="auto">
+                  <img src="{{url('img/bus/'.$db->gambar_bus)}}" alt="Chicago" style="width: 580px;" height="auto">
                 </div>
                 <div class="carousel-item text-center">
-                  <img src="{{url('img/bus/'.$db->gambar_bus)}}" alt="New York" width="auto" height="auto">
+                  <img src="{{url('img/bus/'.$db->gambar_bus)}}" alt="New York" style="width: 580px;" height="auto">
                 </div>
                 <div class="carousel-item text-center">
-                  <img src="{{url('img/bus/'.$db->gambar_bus)}}" alt="New York" width="auto" height="auto">
+                  <img src="{{url('img/bus/'.$db->gambar_bus)}}" alt="New York" style="width: 580px;" height="auto">
                 </div>
                 <div class="carousel-item text-center">
-                  <img src="{{url('img/bus/'.$db->gambar_bus)}}" alt="New York" width="auto" height="auto">
+                  <img src="{{url('img/bus/'.$db->gambar_bus)}}" alt="New York" style="width: 580px;" height="auto">
                 </div>
               @endforeach
               </div>
@@ -84,9 +84,6 @@
             <div class="row">
               <div class="col-md-6">
                 <p class="title-detail-bus"><b>Fasilitas Bus</b></p>
-              </div>
-              <div class="col-md-6" style="padding-left: 115px;">
-                <p class="title-detail-harga"><b>Rp. 20.000.000</b></p>
               </div>
             </div>
 

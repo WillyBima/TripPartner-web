@@ -5,17 +5,16 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
-use Bus;
-use Comment;
-use Fasilitas;
-use FasilitasBus;
-use Harga;
-use HistoryOrder;
-use Kota;
-use Order;
-use Po;
-use Rute;
-Use User;
+use App\Bus;
+use App\User;
+use App\Po;
+use App\Comment;
+use App\Order;
+use App\Fasilitas;
+use App\FasilitasBus;
+use App\Kota;
+use App\Rute;
+use App\Harga;
 
 class ApiController extends Controller
 {
@@ -204,4 +203,63 @@ class ApiController extends Controller
           ]);
         }
         //END DATA BUS
+
+        //API REGISTER
+        public function register(Request $request)
+        {
+          $user = new User;
+          $user->nama_lengkap   = $request->input('nama_lengkap');
+          $user->email          = $request->input('email');
+          $user->password       = bcrypt($request->input('password'));
+          $user->user_level     = $request->input('user_level');
+
+          $user->save();
+          return response()->json([
+              'message'=>'Pemesanan Berhasil Dilakukan',
+              'status'=>200,
+              'data'=>$user,
+          ]);
+        }
+
+        //API POST DATA PEMESANAN
+        public function add_data_pemesanan(Request $request)
+        {
+          $order = new Order;
+          $order->nama           = $request->input('nama');
+          $order->email          = $request->input('email');
+          $order->no_hp          = $request->input('no_hp');
+          $order->nama_bus       = $request->input('nama_bus');
+          $order->harga          = $request->input('harga');
+          $order->alamat_jemput  = $request->input('alamat_jemput');
+          $order->alamat_tujuan  = $request->input('alamat_tujuan');
+          $order->tanggal_pergi  = $request->input('tanggal_pergi');
+          $order->tanggal_pulang = $request->input('tanggal_pulang');
+          $order->status         = $request->input('status');
+
+          $order->save();
+          return response()->json([
+              'message'=>'Pemesanan Berhasil Dilakukan',
+              'status'=>200,
+              'data'=>$order,
+          ]);
+        }
+        //END API Pemesanan
+
+        //API POST COMMENT
+        public function add_data_comment(Request $request)
+        {
+          $comment = new Comment;
+          $comment->nama           = $request->input('nama');
+          $comment->email          = $request->input('email');
+          $comment->subject        = $request->input('subject');
+          $comment->keterangan     = $request->input('keterangan');
+
+          $comment->save();
+          return response()->json([
+              'message'=>'Kritik Saran Berhasil Dikirim',
+              'status'=>200,
+              'data'=>$comment,
+          ]);
+        }
+        //END API COMMENT
 }

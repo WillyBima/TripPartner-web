@@ -45,6 +45,8 @@ class BokingController extends Controller
       //   'nama'           => 'required',
       //   'email'          => 'required',
       //   'no_hp'          => 'required',
+      //   'nama_bus'       => 'required',
+      //   'harga'          => 'required',
       //   'alamat_jemput'  => 'required',
       //   'alamat_tujuan'  => 'required',
       //   'tanggal_pergi'  => 'required',
@@ -56,7 +58,7 @@ class BokingController extends Controller
       // ];
       //
       // $this->validate($request,$rules,$message);
-      // dd('hello');
+
       $order = new Order();
       $order->nama = $request['nama'];
       $order->email = $request['email'];

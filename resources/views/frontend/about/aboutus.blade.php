@@ -82,7 +82,7 @@
       <div class="container-fluid" style="margin-top: 50px;">
         <div class="row">
           <div class="col-md-3" style="text-align: center; padding-right: 0px;">
-            <p class="title-armada"><b>Fun and Fact about Trip Partner</b></p>
+            <p class="title-armada"><b>Fun Fact about TripPartner</b></p>
           </div>
           <div class="col-md-9" style="margin-top: 4px; padding-left: 0px; padding-right: 0px;">
             <hr style="width: 920px; border-bottom: 2px solid #25aae2;">

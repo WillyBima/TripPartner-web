@@ -41,7 +41,7 @@
                 <div class="card" style="width:399px; margin-bottom: 30px;">
                   <img class="card-img-top" src="{{url('img/po/'.$armada->gambar_po)}}" alt="Card image" style="width: 398px; height: 369px;">
                   <div class="card-body text-center">
-                    <p class="card-title">{{$armada->nama_po}}</p><br>
+                    <p class="card-title" style="font-family: Cambria; text-transform: uppercase;">{{$armada->nama_po}}</p><br>
                     <a href="{{url('/armada/detail-armada/'.$armada->slug)}}" class="btn btn-sm card-btn" role="button">Lihat Selengkapnya</a>
                   </div>
                 </div>

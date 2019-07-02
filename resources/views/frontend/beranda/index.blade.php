@@ -32,8 +32,8 @@
             <div class="carousel-item active text-center">
               <img src="{{url('assets/img/corousel.jpg')}}" alt="Los Angeles" width="auto" height="auto">
               <div class="carousel-caption" style="margin-bottom: 70px;">
-                <p class="text-right" style="font-family: Century Gothic; font-size: 30px; color: #fff">TRIPLAN</p>
-                <p class="text-right" style="font-family: Century Gothic; font-size: 20px; color: #fff">Perusahaan Penyedia
+                <p class="text-right" style="font-family: Cambria; font-size: 30px; color: #fff">TRIPLAN</p>
+                <p class="text-right" style="font-family: Cambria; font-size: 20px; color: #fff">Perusahaan Penyedia
                 Jasa Sewa Bus Terbaik<br> dan Terpercaya</p>
                 <br>
                 <a href="#" class="btn" role="button" style="margin-top: 30px; background-color: #f96d01; color: #ffffff; margin-left: 900px;">TENTANG KAMI</a>
@@ -42,8 +42,8 @@
             <div class="carousel-item text-center">
               <img src="{{url('assets/img/corousel.jpg')}}" alt="Chicago" width="auto" height="auto">
               <div class="carousel-caption" style="margin-bottom: 70px;">
-                <p class="text-right" style="font-family: Century Gothic; font-size: 30px; color: #fff">TRIPLAN</p>
-                <p class="text-right" style="font-family: Century Gothic; font-size: 20px; color: #fff">Perusahaan Penyedia
+                <p class="text-right" style="font-family: Cambria; font-size: 30px; color: #fff">TRIPLAN</p>
+                <p class="text-right" style="font-family: Cambria; font-size: 20px; color: #fff">Perusahaan Penyedia
                 Jasa Sewa Bus Terbaik<br> dan Terpercaya</p>
                 <br>
                 <a href="#" class="btn" role="button" style="margin-top: 30px; background-color: #f96d01; color: #ffffff; margin-left: 900px;">TENTANG KAMI</a>
@@ -52,8 +52,8 @@
             <div class="carousel-item text-center">
               <img src="{{url('assets/img/corousel.jpg')}}" alt="New York" width="auto" height="auto">
               <div class="carousel-caption" style="margin-bottom: 70px;">
-                <p class="text-right" style="font-family: Century Gothic; font-size: 30px; color: #fff">TRIPLAN</p>
-                <p class="text-right" style="font-family: Century Gothic; font-size: 20px; color: #fff">Perusahaan Penyedia
+                <p class="text-right" style="font-family: Cambria; font-size: 30px; color: #fff">TRIPLAN</p>
+                <p class="text-right" style="font-family: Cambria; font-size: 20px; color: #fff">Perusahaan Penyedia
                 Jasa Sewa Bus Terbaik<br> dan Terpercaya</p>
                 <br>
                 <a href="#" class="btn" role="button" style="margin-top: 30px; background-color: #f96d01; color: #ffffff; margin-left: 900px;">TENTANG KAMI</a>
@@ -108,7 +108,7 @@
         terbaik untuk kebutuhan transportasi anda</p>
         <hr style="width: 1000px; border-bottom: 1px solid #25aae2;">
         <div class="row">
-          <div class="col-md-4 text-center" style="padding: 20px;">
+          <div class="col-md-4 text-center" style="padding: 30px;">
             <div class="card" style="width:400px">
               <img class="card-img-top" src="{{url('assets/img/bus1.jpg')}}" alt="Card image" style="width:100%">
               <div class="card-body">
@@ -118,7 +118,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 text-center" style="padding: 20px;">
+          <div class="col-md-4 text-center" style="padding: 30px;">
             <div class="card" style="width:400px">
               <img class="card-img-top" src="{{url('assets/img/bus1.jpg')}}" alt="Card image" style="width:100%">
               <div class="card-body">
@@ -128,7 +128,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 text-center" style="padding: 20px;">
+          <div class="col-md-4 text-center" style="padding: 30px;">
             <div class="card" style="width:400px">
               <img class="card-img-top" src="{{url('assets/img/bus1.jpg')}}" alt="Card image" style="width:100%">
               <div class="card-body">

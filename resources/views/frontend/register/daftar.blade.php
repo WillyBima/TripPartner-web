@@ -14,7 +14,7 @@
     <!-- Content -->
     <section id="login">
       <div class="container-fluid" style="margin-top: 30px;">
-        <p class="title text-center" style="font-family: Century Gothic; font-size: 24px; color: #25aae2; margin-bottom: 20px;">Daftar Sekarang dan Dapatkan Manfaatnya!</p>
+        <p class="title text-center" style="font-family: Cambria; font-size: 24px; color: #25aae2; margin-bottom: 20px;">Daftar Sekarang dan Dapatkan Manfaatnya!</p>
         <div class="row">
           <div class="col-md-2">
 
@@ -38,14 +38,14 @@
                   <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Konfirmasi Kata Sandi">
                 </div>
 
-                <p class="privacy-policy-txt" style="font-family: Century Gothic; font-size: 14px; margin-top: 30px; margin-bottom: 30px;">
+                <p class="privacy-policy-txt" style="font-family: Cambria; font-size: 14px; margin-top: 30px; margin-bottom: 30px;">
 				          Dengan mengklik button “Daftar” di bawah ini, saya setuju dengan <a href='privacy-policy' style="color: #f96d01;">Kebijakan Privasi
                   </a> serta <a href='tos' style="color: #f96d01;">Syarat dan Ketentuan</a> TripPlan.com			</p>
 
-                <a href="#" class="btn btn-block" role="button" style="font-family: Century Gothic; background-color: #f96d01; color: #ffffff;">Daftar</a>
+                <a href="#" class="btn btn-block" role="button" style="font-family: Cambria; background-color: #f96d01; color: #ffffff;">Daftar</a>
 
-                <p class="dont-have-account js-href" style="margin-top: 20px;">
-            			Sudah punya akun?  <a href="/login" data-state="register" style="font-family: Century Gothic; color: #f96d01; font-size: 15px;">Login Sekarang</a>
+                <p class="dont-have-account js-href" style="margin-top: 20px; font-family: Cambria;">
+            			Sudah punya akun?  <a href="/login" data-state="register" style="font-family: Cambria; color: #f96d01; font-size: 15px;">Login Sekarang</a>
             		</p>
               </form>
             </div>

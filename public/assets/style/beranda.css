@@ -25,20 +25,20 @@
 }
 
 .title{
-  font-family: Century Gothic;
+  font-family: Cambria;
   font-size: 28px;
   color: #25aae2;
   margin-bottom: 0px;
 }
 
 .subtitle{
-  font-family: Century Gothic;
+  font-family: Cambria;
   font-size: 13px;
   color: #25aae2;
 }
 
 .title-manfaat{
-  font-family: Century Gothic;
+  font-family: Cambria;
   font-size: 20px;
   color: #25aae2;
 }
@@ -50,13 +50,13 @@
 }
 
 .card-description{
-  font-family: Century Gothic;
+  font-family: Cambria;
   font-size: 13px;
   color: #25aae2;
 }
 
 .card-btn{
-  font-family: Century Gothic;
+  font-family: Cambria;
   background-color: #f96d01;
   color: #ffffff;
 }
@@ -69,7 +69,7 @@
 
 .title-booking{
   margin-left: 150px;
-  font-family: Century Gothic;
+  font-family: Cambria;
   font-size: 33px;
   color: #fff;
   padding-top: 30px;
@@ -78,7 +78,7 @@
 
 .subtitle-booking{
   margin-left: 150px;
-  font-family: Century Gothic;
+  font-family: Cambria;
   font-size: 16px;
   color: #fff
 }

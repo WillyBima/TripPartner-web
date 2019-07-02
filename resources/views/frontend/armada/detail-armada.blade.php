@@ -35,13 +35,11 @@
     <section>
       <div class="container-fluid">
         @foreach($datapo as $dpo)
-          <p class="title-po"><b>PO {{$dpo->nama_po}}</b></p>
+          <p class="title-po text-center" style="text-transform: uppercase;"><b>PO {{$dpo->nama_po}}</b></p>
             <div class="row">
-              <div class="col-md-3" style="text-align: center; padding-right: 0px;">
-                <p class="title-armada"><b>Big Bus</b></p>
-              </div>
-              <div class="col-md-9" style="margin-top: 4px; padding-left: 0px; padding-right: 0px;">
-                <hr style="width: 920px; border-bottom: 2px solid #25aae2;">
+              <div class="col-md-12">
+                <p class="title-armada text-center" style="margin-left: 0px;"><b>Big Bus {{$dpo->nama_po}}</b></p>
+                <hr style="width: 1000px; border-bottom: 1px solid #f96d01;">
               </div>
             </div>
           @endforeach
@@ -61,11 +59,9 @@
             </div>
 
             <div class="row">
-              <div class="col-md-8" style="margin-top: 4px; padding-left: 0px; padding-right: 0px;">
-                <hr style="width: 820px; border-bottom: 2px solid #25aae2;">
-              </div>
-              <div class="col-md-4" style="text-align: center;">
-                <p class="title-armada"><b>Medium Bus</b></p>
+              <div class="col-md-12">
+                <p class="title-armada text-center" style="margin-left: 0px;"><b>Medium Bus {{$dpo->nama_po}}</b></p>
+                <hr style="width: 1000px; border-bottom: 1px solid #f96d01;">
               </div>
             </div>
             <!-- Medium bus -->
@@ -84,11 +80,9 @@
             </div>
 
             <div class="row">
-              <div class="col-md-3" style="text-align: center; padding-right: 0px;">
-                <p class="title-armada"><b>Small Bus</b></p>
-              </div>
-              <div class="col-md-9" style="margin-top: 4px; padding-left: 0px; padding-right: 0px;">
-                <hr style="width: 920px; border-bottom: 2px solid #25aae2;">
+              <div class="col-md-12">
+                <p class="title-armada text-center" style="margin-left: 0px;"><b>Small Bus {{$dpo->nama_po}}</b></p>
+                <hr style="width: 1000px; border-bottom: 1px solid #f96d01;">
               </div>
             </div>
             <!-- big bus -->

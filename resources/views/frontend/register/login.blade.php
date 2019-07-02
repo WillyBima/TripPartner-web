@@ -14,7 +14,7 @@
     <!-- Content -->
     <section id="login">
       <div class="container-fluid" style="margin-bottom: 50px; margin-top: 70px;">
-        <p class="title text-center" style="font-family: Century Gothic; font-size: 28px; color: #25aae2; margin-bottom: 20px;"><b>Log In ke TripPartner.com</b></p>
+        <p class="title text-center" style="font-family: Cambria; font-size: 28px; color: #25aae2; margin-bottom: 20px;"><b>Login TripPartner.com</b></p>
         <div class="row">
           <div class="col-md-2">
 
@@ -30,13 +30,13 @@
                   <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                 </div>
                 <div class="form-group forgot-box" style="margin-top: 25px; margin-bottom: 20px;">
-			            <a href="#" style="font-family: Century Gothic; color: #f96d01; font-size: 13px;">Lupa Kata Sandi?</a>
+			            <a href="#" style="font-family: Cambria; color: #f96d01; font-size: 13px;">Lupa Kata Sandi?</a>
 		            </div>
 
-                <a href="#" class="btn btn-block" role="button" style="font-family: Century Gothic; background-color: #f96d01; color: #ffffff;">Login</a>
+                <a href="#" class="btn btn-block" role="button" style="font-family: Cambria; background-color: #f96d01; color: #ffffff;">Login</a>
 
-                <p class="dont-have-account js-href" style="margin-top: 20px;">
-            			Belum punya akun?  <a href="/daftar" data-state="register" style="font-family: Century Gothic; color: #f96d01; font-size: 15px;">Daftar Sekarang</a>
+                <p class="dont-have-account js-href" style="margin-top: 20px; font-family: Cambria;">
+            			Belum punya akun?  <a href="/daftar" data-state="register" style="font-family: Cambria; color: #f96d01; font-size: 15px;">Daftar Sekarang</a>
             		</p>
               </form>
             </div>

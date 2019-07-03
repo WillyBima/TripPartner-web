@@ -37,7 +37,7 @@
       <div class="container-fluid">
         <div class="row text-center">
           <div class="col-md-12">
-            <p class="title-detail">Detail Bus Pariwisata Hiba Utama</p>
+            <p class="title-detail">Detail Armada</p>
             <hr style="width: 1250px; border-bottom: 1px solid #25aae2;">
           </div>
         </div>

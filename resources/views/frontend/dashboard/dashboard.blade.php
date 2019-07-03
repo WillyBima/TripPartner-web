@@ -22,7 +22,7 @@
 
     <div id="container">
     <div id="sidebar" class="rounded">
-        <ul class="sidebar-nav" style="padding-left: 15px;">
+        <ul class="sidebar-nav" style="padding-left: 15px; font-family: Cambria;">
             <li style="margin-top: 15px;">
                 <a href="/dashboardUser">My Dashboard</a>
             </li>
@@ -44,7 +44,7 @@
             </li>
         </ul>
     </div>
-    <div id="page-content-container" style="padding-left: 130px;padding-top: 0px;padding-right: 85px;">
+    <div id="page-content-container" style="padding-left: 130px;padding-top: 0px;padding-right: 85px; font-family: Cambria;">
         <div class="container-fluid">
             <div class="row">
               <h4 style="margin-bottom: 20px;">MY DASHBOARD</h4>

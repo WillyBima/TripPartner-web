@@ -22,7 +22,7 @@
 
     <div id="container">
       <div id="sidebar" class="rounded">
-          <ul class="sidebar-nav" style="padding-left: 15px;">
+          <ul class="sidebar-nav" style="padding-left: 15px; font-family: Cambria;">
               <li style="margin-top: 15px;">
                   <a href="/dashboardUser">My Dashboard</a>
               </li>
@@ -44,7 +44,7 @@
               </li>
           </ul>
       </div>
-    <div id="page-content-container" style="padding-left: 130px;padding-top: 0px;padding-right: 85px;">
+    <div id="page-content-container" style="padding-left: 130px;padding-top: 0px;padding-right: 85px; font-family: Cambria;">
         <div class="container-fluid">
           <div class="row" style="margin-bottom: 30px;">
             <h4 style="margin-bottom: 20px;">MY ORDERS</h4>
@@ -70,7 +70,7 @@
                       <p><b>110318</b></p>
                     </div>
                   </div>
-                <p class="btn" role="button" style="padding: 10px; margin-top: 20px; font-family: Century Gothic; background-color: #25aae2; color: #ffffff;">Menunggu Konfirmasi</p>
+                <p class="btn" role="button" style="padding: 10px; margin-top: 20px; font-family: Cambria; background-color: #25aae2; color: #ffffff;">Menunggu Konfirmasi</p>
               </div>
           </div>
               <a href="" style="margin-top: 20px; color: #d35400"><img src="{{url('assets/img/icon/kembali.png')}}" alt=""> Kembali</a>

@@ -22,7 +22,7 @@
 
     <div id="container">
       <div id="sidebar" class="rounded">
-          <ul class="sidebar-nav" style="padding-left: 15px;">
+          <ul class="sidebar-nav" style="padding-left: 15px; font-family: Cambria;">
               <li style="margin-top: 15px;">
                   <a href="/dashboardUser">My Dashboard</a>
               </li>
@@ -44,7 +44,7 @@
               </li>
           </ul>
       </div>
-    <div id="page-content-container" style="padding-left: 130px;padding-top: 0px;padding-right: 85px;">
+    <div id="page-content-container" style="padding-left: 130px;padding-top: 0px;padding-right: 85px; font-family: Cambria;">
         <div class="container-fluid">
           <div class="row" style="margin-bottom: 30px;">
             <h4 style="margin-bottom: 20px;">EDIT ACCOUNT INFORMATION</h4>
@@ -73,7 +73,7 @@
                 </div>
               </div>
 
-              <div class="col-md-12" style="border: solid 1px #95a5a6; padding: 30px; border-radius: 10px; margin-top: 40px;">
+              <div class="col-md-12" style="border: solid 1px #95a5a6; padding: 30px; border-radius: 10px; margin-top: 40px; font-family: Cambria;">
                 <h5><b>Ganti Password</b></h5>
                 <hr style="width: auto; border-bottom: 1px solid #95a5a6;">
                 <br>
@@ -97,7 +97,7 @@
                   </div>
                 </div>
               </div>
-              <a href="" class="btn" role="button" style="padding: 10px; margin-top: 20px; margin-left: 952px; font-family: Century Gothic; background-color: #f96d01; color: #ffffff;">SIMPAN</a>
+              <a href="" class="btn" role="button" style="padding: 10px; margin-top: 20px; margin-left: 952px; font-family: Cambria; background-color: #f96d01; color: #ffffff;">SIMPAN</a>
               <a href="" style="color: #d35400"><img src="{{url('assets/img/icon/kembali.png')}}" alt=""> Kembali</a>
           </div>
         </div>

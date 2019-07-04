@@ -60,7 +60,7 @@
                 <div class="contactInfo" style="border: solid 1px #95a5a6;; padding: 30px; border-radius: 10px;">
                   <h5><b>Contact Information</b></h5>
                   <hr style="width: auto; border-bottom: 1px solid #95a5a6;">
-                  <img src="{{url('assets/img/icon/pencil.png')}}" style="margin-left: 425px;">
+                  <img src="{{url('assets/img/icon/pencil.png')}}" style="margin-left: 350px;">
                   <br><br>
                   <p>Willy Jonnaedi</p>
                   <p>alfajri.bima@gmail.com</p>
@@ -70,7 +70,7 @@
                 <div class="myOrder" style="border: solid 1px #95a5a6;; padding: 25px; border-radius: 10px;">
                   <h5><b>My Orders</b></h5>
                   <hr style="width: auto; border-bottom: 1px solid #95a5a6;">
-                  <a href="#" style="margin-left: 360px; color: #d35400">Lihat Detail</a>
+                  <a href="#" style="margin-left: 295px; color: #d35400">Lihat Detail</a>
                   <br><br>
                   <p style="font-size: 20px;"><b><img src="{{url('assets/img/icon/bus depan.png')}}"> Depok <img src="{{url('assets/img/icon/next.png')}}" alt=""> Yogyakarta</b></p>
                   <p>Kamis, 18 Juli 2019</p>

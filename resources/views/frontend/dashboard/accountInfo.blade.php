@@ -97,7 +97,7 @@
                   </div>
                 </div>
               </div>
-              <a href="" class="btn" role="button" style="padding: 10px; margin-top: 20px; margin-left: 952px; font-family: Cambria; background-color: #f96d01; color: #ffffff;">SIMPAN</a>
+              <a href="" class="btn" role="button" style="padding: 10px; margin-top: 20px; margin-left: 800px; font-family: Cambria; background-color: #f96d01; color: #ffffff;">SIMPAN</a>
               <a href="" style="color: #d35400"><img src="{{url('assets/img/icon/kembali.png')}}" alt=""> Kembali</a>
           </div>
         </div>
